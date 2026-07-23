@@ -62,7 +62,7 @@ This plugin is being built with DigiByte’s speed in mind from day one.
 | [docs/RUNBOOK.md](docs/RUNBOOK.md) | Operators | How to run & troubleshoot |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Contributors | Why the code is structured this way |
 | [docs/DIGIBYTE.md](docs/DIGIBYTE.md) | Everyone | DigiByte-specific realities (confirmations, MultiShield, Odocrypt) |
-| [docs/DIGIDOLLAR.md](docs/DIGIDOLLAR.md) | Contributors | Future DUSD support roadmap |
+| [docs/DIGIDOLLAR.md](docs/DIGIDOLLAR.md) | Contributors | Future $DD support roadmap |
 | [docs/SNAPSHOT.md](docs/SNAPSHOT.md) | Operators | How to create & verify chain snapshots |
 | [CHANGELOG.md](CHANGELOG.md) | Everyone | What changed and why |
 
