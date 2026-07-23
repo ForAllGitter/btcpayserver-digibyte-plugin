@@ -14,10 +14,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - NBXplorer registration path
 - Operator Runbook and Architecture documentation
 - `docs/DIGIBYTE.md` – MultiShield confirmation math, Odocrypt note, address formats
-- `docs/DIGIDOLLAR.md` – Roadmap stub for future native DUSD support
+- `docs/DIGIDOLLAR.md` – Roadmap stub for future native $DD support
 
 ### Changed
 - README: elevated Docker/quick-start section and added clear confirmation-time callout
+- DigiDollar ticker updated from DUSD to $DD
 
 ### Fixed
 - N/A
