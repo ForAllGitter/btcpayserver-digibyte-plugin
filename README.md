@@ -6,6 +6,30 @@
 
 ---
 
+## Quick Start (Docker)
+
+The fastest way to run everything:
+
+```bash
+git clone https://github.com/ForAllGitter/btcpayserver-digibyte-plugin.git
+cd btcpayserver-digibyte-plugin
+# Docker Compose fragment coming soon – see docs/RUNBOOK.md for current setup
+```
+
+> **Full operator instructions** → [docs/RUNBOOK.md](docs/RUNBOOK.md)
+
+---
+
+## Why this matters
+
+DigiByte produces a block every ~15 seconds.  
+**6 confirmations ≈ 90 seconds**, not 60 minutes.
+
+If you inherit Bitcoin’s default invoice timeouts, merchants will get frustrated.  
+This plugin is being built with DigiByte’s speed in mind from day one.
+
+---
+
 ## Architecture
 
 ```
@@ -30,19 +54,6 @@
 
 ---
 
-## Quick Start
-
-```bash
-git clone https://github.com/ForAllGitter/btcpayserver-digibyte-plugin.git
-cd btcpayserver-digibyte-plugin
-dotnet build
-```
-
-Full operator instructions → **[docs/RUNBOOK.md](docs/RUNBOOK.md)**  
-Architecture & design decisions → **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**
-
----
-
 ## Documentation Map
 
 | Document | Audience | Purpose |
@@ -50,6 +61,8 @@ Architecture & design decisions → **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.m
 | [README.md](README.md) | Everyone | 60-second overview |
 | [docs/RUNBOOK.md](docs/RUNBOOK.md) | Operators | How to run & troubleshoot |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Contributors | Why the code is structured this way |
+| [docs/DIGIBYTE.md](docs/DIGIBYTE.md) | Everyone | DigiByte-specific realities (confirmations, MultiShield, Odocrypt) |
+| [docs/DIGIDOLLAR.md](docs/DIGIDOLLAR.md) | Contributors | Future DUSD support roadmap |
 | [docs/SNAPSHOT.md](docs/SNAPSHOT.md) | Operators | How to create & verify chain snapshots |
 | [CHANGELOG.md](CHANGELOG.md) | Everyone | What changed and why |
 
