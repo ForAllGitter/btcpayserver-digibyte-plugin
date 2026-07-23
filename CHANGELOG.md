@@ -13,9 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Address helper and validation utilities
 - NBXplorer registration path
 - Operator Runbook and Architecture documentation
+- `docs/DIGIBYTE.md` – MultiShield confirmation math, Odocrypt note, address formats
+- `docs/DIGIDOLLAR.md` – Roadmap stub for future native DUSD support
 
 ### Changed
-- N/A
+- README: elevated Docker/quick-start section and added clear confirmation-time callout
 
 ### Fixed
 - N/A
